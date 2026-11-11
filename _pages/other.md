@@ -25,9 +25,9 @@ nav_order: 6
 <div class="ow-card">
   <img class="ow-logo" src="{{ '/assets/img/logos/university.png' | relative_url }}" alt="">
   <div class="ow-body">
-    <p class="ow-title">Guest Lecture: [Lecture Title]</p>
-    <p class="ow-meta">[Course name / audience] · [University] · [Month 2026]</p>
-    <p class="ow-desc">[One or two sentences: what you taught, to whom, how many students.]</p>
+    <p class="ow-title">Online Lecture: Theory of LLMs</p>
+    <p class="ow-meta">LLM training · University of the Witwatersrand · [March 2026]</p>
+    <p class="ow-desc">I lectured 80-100 molecular bioscience students at the Wits Sydney Brenner Institute for Molecular Bioscience. I taught them how the LLMs really work including the difference between encoder-decoder models, next token prediction, SOTA models like GPT, in-context learning and other prompting strategies</p>
     <div class="ow-links"><a href="{{ '/assets/pdf/lecture-slides.pdf' | relative_url }}">Slides</a></div>
   </div>
 </div>
@@ -37,11 +37,13 @@ nav_order: 6
 <div class="ow-card">
   <img class="ow-logo" src="{{ '/assets/img/logos/organisation.png' | relative_url }}" alt="">
   <div class="ow-body">
-    <p class="ow-title">[Workshop Title]</p>
-    <p class="ow-meta">[Role: Facilitator / Speaker / Participant] · [Organiser] · [Month Year]</p>
-    <p class="ow-desc">[What the workshop covered and what you did.]</p>
+    <p class="ow-title">Building a Transformer from Scratch</p>
+    <p class="ow-meta">[Role: Facilitator] · Wits MIND Institute & Harvard Kempner Institute · [Aug 2025]</p>
+    <p class="ow-desc">I acted as the liason between the lecturer and students, helping the students through the practical implementation of the Transformer model.</p>
   </div>
 </div>
+
+
 
 <h3 class="ow-section">Volunteering</h3>
 
