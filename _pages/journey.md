@@ -42,6 +42,7 @@ nav_order: 2
     <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
   </div>
 
+
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/frontiers.png' | relative_url }}" alt="">
     <div class="tl-date">Aug 2026<span class="tl-tag">Publication</span></div>
@@ -49,13 +50,21 @@ nav_order: 2
     <p class="tl-desc">Paper Titled: "Artificial intelligence can match domain experts in evidence extraction and critical appraisal of microbial oncogenesis research publications"</p>
   </div>
 
+  <div class="tl-item">
+    <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
+    <div class="tl-body">
+    <div class="tl-date">Jul 2026 <span class="tl-tag">Award</span></div>
+    <p class="tl-title">Best Paper in Computer Science Track Award</p>
+    <p class="tl-desc">SAICSIT 2026</p>
+    </div>
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
+  </div>
 
   <div class="tl-item">
-    <img class="tl-logo" src="{{ '/assets/img/logos/saicsit.png' | relative_url }}" alt="">
+    <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
     <div class="tl-date">Jul 2026 <span class="tl-tag">Conference</span></div>
     <p class="tl-title">Presented first-author research paper at SAICSIT (South African Institute of Computer Science and Information Technologies) 2026</p>
     <p class="tl-desc">Paper Titled: "Democratizing Discovery: Cost-Efficient Scientific Literature Screening with Open-Weight SLMs"</p>
-    <p class="tl-desc">🏅 Won best paper in computer science track award"</p>
   </div>
 
 
@@ -70,11 +79,11 @@ nav_order: 2
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
-    <div class="tl-body">
+    <!-- <div class="tl-body"> -->
     <div class="tl-date">Jan 2025 - present <span class="tl-tag">Education</span></div>
     <p class="tl-title">Started MSc Computer Science, University of the Witwatersrand</p>
     <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery.</p>
-    </div>
+    <!-- </div> -->
     <ul class="tl-awards">
     <li>🏅 MSc Fellowship 2025-2026</li>
     <li>🏅 Postgraduate Merit Award, 2025, 2026</li>
