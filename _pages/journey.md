@@ -45,9 +45,11 @@ nav_order: 2
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/frontiers.png' | relative_url }}" alt="">
+    <div class="tl-body">
     <div class="tl-date">Aug 2026<span class="tl-tag">Publication</span></div>
     <p class="tl-title">Co-authored paper in Frontiers in Cellular and Infection Microbiology</p>
     <p class="tl-desc">Paper Titled: "Artificial intelligence can match domain experts in evidence extraction and critical appraisal of microbial oncogenesis research publications"</p>
+    </div>
   </div>
 
   <div class="tl-item">
