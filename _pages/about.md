@@ -25,15 +25,16 @@ profile:
   image_circular: false
   more_info: >
     <div class="pc-info">
-    <p class="pc-loc"><i class="fa-solid fa-location-dot"></i> Johannesburg, South Africa 🇿🇦</p>
+    <p class="pc-loc"><i class="fa-solid fa-location-dot"></i> Johannesburg, South Africa</p>
     <div class="pc-social">
-    <a class="pc-cv" href="/cv/" title="CV"><i class="fa-solid fa-file-lines"></i></a>
     <a class="pc-mail" href="mailto:YOUR_EMAIL" title="Email"><i class="fa-solid fa-envelope"></i></a>
     <a class="pc-li" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a class="pc-gh" href="https://github.com/MZSFighters" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
     <a class="pc-gs" href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     <a class="pc-orcid" href="https://orcid.org/YOUR_ORCID_ID" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
     </div>
     </div>
+
 
 selected_papers: false
 social: false
@@ -76,18 +77,19 @@ I am a masters student in computer science at the University of the Witwatersran
 .news-thumb.logo { object-fit: contain; padding: 8px; }
 .news-date { font-size: 0.8rem; color: var(--global-text-color-light); margin: 0; }
 .news-text p { margin: 0; display: inline; }
-.pc-info { text-align: center; font-family: inherit; margin-top: 0.8rem; }
-.pc-loc { font-size: 0.95rem; margin: 0 0 0.7rem; color: var(--global-text-color); }
-.pc-loc i { color: #e74c3c; margin-right: 0.3rem; }
+.pc-info, .pc-info p { text-align: center; font-family: inherit !important; margin-top: 0.8rem; }
+.pc-loc { font-size: 0.95rem; margin: 0 0 0.8rem !important; color: var(--global-text-color-light); }
+.pc-loc i { color: var(--global-theme-color); margin-right: 0.3rem; }
 .pc-social { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.6rem; }
-.pc-social a { width: 42px; height: 42px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center;
-  color: #fff !important; font-size: 1.15rem; transition: transform 0.15s, opacity 0.15s; text-decoration: none; }
-.pc-social a:hover { transform: translateY(-3px); opacity: 0.9; }
-.pc-cv { background: var(--global-theme-color); }
-.pc-mail { background: #ea4335; }
-.pc-li { background: #0a66c2; }
-.pc-gs { background: #4285f4; }
-.pc-orcid { background: #a6ce39; }
+.pc-social a { width: 40px; height: 40px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center;
+  font-size: 1.1rem; text-decoration: none; color: var(--global-text-color) !important;
+  border: 1px solid var(--global-divider-color); transition: all 0.2s; }
+.pc-social a:hover { color: #fff !important; transform: translateY(-2px); }
+.pc-mail:hover { background: #ea4335; border-color: #ea4335; }
+.pc-li:hover { background: #0a66c2; border-color: #0a66c2; }
+.pc-gh:hover { background: #24292f; border-color: #24292f; }
+.pc-gs:hover { background: #4285f4; border-color: #4285f4; }
+.pc-orcid:hover { background: #a6ce39; border-color: #a6ce39; }
 </style>
 
 <div class="home-h"><h2>Journey</h2><a href="{{ '/journey/' | relative_url }}">Full journey →</a></div>
