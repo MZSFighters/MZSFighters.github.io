@@ -61,11 +61,11 @@ I am a masters student in computer science at the University of the Witwatersran
 
 <div class="home-h"><h2>Journey</h2><a href="{{ '/journey/' | relative_url }}">Full journey →</a></div>
 <div class="jstrip">
-<div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">Jan 2025</p><p class="jtitle">Started MSc Computer Science, Johannesburg</p></div>
-<div class="jstep"><img src="{{ '/assets/img/logos/epfl.png' | relative_url }}" alt=""><p class="jdate">June 2025</p><p class="jtitle">Summer@EPFL research intern, Switzerland</p></div>
-<div class="jstep"><img src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt=""><p class="jdate">Jul 2026</p><p class="jtitle">First-author paper and best paper award at SAICSIT 2026, Cape Town</p></div>
-<div class="jstep"><img src="{{ '/assets/img/logos/frontiers.png' | relative_url }}" alt=""><p class="jdate">2026</p><p class="jtitle">Co-authored paper in Frontiers in Cellular and Infection Microbiology</p></div>
-<div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">Oct 2026</p><p class="jtitle">3rd place, Best Research Presentation, Wits Faculty of Science</p></div>
+<div class="jstep"><img src="{{ '/assets/img/logos/wits.jpeg' | relative_url }}" alt=""><p class="jdate">Jan 2025</p><p class="jtitle">Started MSc Computer Science, Johannesburg, South Africa</p></div>
+<div class="jstep"><img src="{{ '/assets/img/logos/epfl.png' | relative_url }}" alt=""><p class="jdate">June 2025</p><p class="jtitle">Summer@EPFL research intern, Lausanne, Switzerland</p></div>
+<div class="jstep"><img src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt=""><p class="jdate">Jul 2026</p><p class="jtitle">First-author paper and best paper award at SAICSIT 2026, Cape Town, South Africa</p></div>
+<div class="jstep"><img src="{{ '/assets/img/logos/frontiers.png' | relative_url }}" alt=""><p class="jdate">Aug 2026</p><p class="jtitle">Co-authored paper in Frontiers in Cellular and Infection Microbiology</p></div>
+<div class="jstep"><img src="{{ '/assets/img/logos/wits.jpeg' | relative_url }}" alt=""><p class="jdate">Oct 2026</p><p class="jtitle">3rd place, Best Research Presentation, Wits Faculty of Science</p></div>
 <!-- <div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">Nov 2026</p><p class="jtitle">Applying to PhD programmes</p></div> -->
 </div>
 
