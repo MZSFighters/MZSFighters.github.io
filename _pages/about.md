@@ -44,17 +44,17 @@ I am a masters student in computer science at the University of the Witwatersran
 .home-h h2 { margin: 0; font-size: 1.6rem; }
 .home-h a { font-size: 0.9rem; }
 .jstrip { display: flex; gap: 1rem; overflow-x: auto; padding: 0.5rem 0 1rem; }
-.jstep { flex: 0 0 190px; position: relative; padding-top: 1.6rem; }
+.jstep { flex: 0 0 210px; position: relative; padding-top: 1.6rem; }
 .jstep::before { content: ""; position: absolute; top: 0.45rem; left: 0; right: -1rem; height: 2px; background: var(--global-divider-color); }
 .jstep:last-child::before { right: 50%; }
 .jstep::after { content: ""; position: absolute; top: 0; left: 0; width: 16px; height: 16px; border-radius: 50%; background: var(--global-theme-color); }
-.jstep img { width: 44px; height: 44px; object-fit: contain; background: #fff; border-radius: 10px; padding: 4px; margin-bottom: 0.5rem; }
+.jstep img { width: 72px; height: 72px; object-fit: contain; background: #fff; border-radius: 14px; padding: 8px; margin-bottom: 0.6rem; box-shadow: 0 0 0 2px var(--global-theme-color), 0 4px 14px rgba(0,0,0,0.45); }
 .jdate { font-size: 0.8rem; color: var(--global-theme-color); font-weight: 600; margin: 0; }
 .jtitle { font-size: 0.92rem; margin: 0.15rem 0 0; line-height: 1.4; }
 .news-list { display: flex; flex-direction: column; gap: 0.8rem; }
 .news-item { display: flex; gap: 1rem; align-items: center; padding: 0.7rem; border-radius: 12px; border: 1px solid var(--global-divider-color); }
-.news-thumb { width: 84px; height: 64px; object-fit: cover; border-radius: 8px; flex-shrink: 0; background: #fff; }
-.news-thumb.logo { object-fit: contain; padding: 6px; }
+.news-thumb { width: 110px; height: 80px; object-fit: cover; border-radius: 10px; flex-shrink: 0; background: #fff; box-shadow: 0 0 0 1px var(--global-divider-color), 0 4px 12px rgba(0,0,0,0.4); }
+.news-thumb.logo { object-fit: contain; padding: 8px; }
 .news-date { font-size: 0.8rem; color: var(--global-text-color-light); margin: 0; }
 .news-text p { margin: 0; display: inline; }
 </style>
@@ -62,7 +62,7 @@ I am a masters student in computer science at the University of the Witwatersran
 <div class="home-h"><h2>Journey</h2><a href="{{ '/journey/' | relative_url }}">Full journey →</a></div>
 <div class="jstrip">
 <div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">Jan 2025</p><p class="jtitle">Started MSc Computer Science, Johannesburg</p></div>
-<div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">June 2025</p><p class="jtitle">Summer@EPFL research intern, Switzerland</p></div>
+<div class="jstep"><img src="{{ '/assets/img/logos/epfl.png' | relative_url }}" alt=""><p class="jdate">June 2025</p><p class="jtitle">Summer@EPFL research intern, Switzerland</p></div>
 <div class="jstep"><img src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt=""><p class="jdate">Jul 2026</p><p class="jtitle">First-author paper and best paper award at SAICSIT 2026, Cape Town</p></div>
 <div class="jstep"><img src="{{ '/assets/img/logos/frontiers.png' | relative_url }}" alt=""><p class="jdate">2026</p><p class="jtitle">Co-authored paper in Frontiers in Cellular and Infection Microbiology</p></div>
 <div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">Oct 2026</p><p class="jtitle">3rd place, Best Research Presentation, Wits Faculty of Science</p></div>
