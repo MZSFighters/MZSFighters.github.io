@@ -52,15 +52,15 @@ nav_order: 2
     </div>
   </div>
 
-  <div class="tl-item">
+  <!-- <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
     <div class="tl-body">
     <div class="tl-date">Jul 2026 <span class="tl-tag">Award</span></div>
     <p class="tl-title">Best Paper in Computer Science Track Award</p>
     <p class="tl-desc">SAICSIT 2026 Conference</p>
     </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
-  </div>
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
+  </div> -->
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
@@ -68,6 +68,9 @@ nav_order: 2
     <div class="tl-date">Jul 2026 <span class="tl-tag">Conference</span></div>
     <p class="tl-title">Presented first-author research paper at SAICSIT (South African Institute of Computer Science and Information Technologies) 2026</p>
     <p class="tl-desc">Paper Titled: "Democratizing Discovery: Cost-Efficient Scientific Literature Screening with Open-Weight SLMs"</p>
+    <ul class="tl-awards">
+    <li>🏅 Best Paper in Computer Science Track Award</li>
+    </ul>
     </div>
   </div>
 
