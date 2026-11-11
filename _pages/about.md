@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: MSc Computer Science · <a href='https://www.wits.ac.za/'>University of the Witwatersrand</a>
 
@@ -34,7 +34,7 @@ latest_posts:
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 I am a masters student in computer science at the University of the Witwatersrand, working at the intersection of Artificial Intelligence and Healthcare. My research interests include training, optimizing and applying AI agents to solve problems in the biomedical healthcare domain. I am currently in the process of writing my MSc Thesis and thus looking forward to finish it. -->
 
@@ -61,7 +61,7 @@ I am a masters student in computer science at the University of the Witwatersran
 
 <div class="home-h"><h2>Journey</h2><a href="{{ '/journey/' | relative_url }}">Full journey →</a></div>
 <div class="jstrip">
-<div class="jstep"><img src="{{ '/assets/img/logos/wits.jpeg' | relative_url }}" alt=""><p class="jdate">Jan 2025</p><p class="jtitle">Started MSc Computer Science, Johannesburg, South Africa</p></div>
+<div class="jstep"><img src="{{ '/assets/img/logos/wits.jpeg' | relative_url }}" alt=""><p class="jdate">Jan 2025</p><p class="jtitle">Started MSc Computer Science @ University of the Witwatersrand, Johannesburg, South Africa</p></div>
 <div class="jstep"><img src="{{ '/assets/img/logos/epfl.png' | relative_url }}" alt=""><p class="jdate">June 2025</p><p class="jtitle">Summer@EPFL research intern, Lausanne, Switzerland</p></div>
 <div class="jstep"><img src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt=""><p class="jdate">Jul 2026</p><p class="jtitle">First-author paper and best paper award at SAICSIT 2026, Cape Town, South Africa</p></div>
 <div class="jstep"><img src="{{ '/assets/img/logos/frontiers.png' | relative_url }}" alt=""><p class="jdate">Aug 2026</p><p class="jtitle">Co-authored paper in Frontiers in Cellular and Infection Microbiology</p></div>
@@ -69,7 +69,7 @@ I am a masters student in computer science at the University of the Witwatersran
 <!-- <div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">Nov 2026</p><p class="jtitle">Applying to PhD programmes</p></div> -->
 </div>
 
-<div class="home-h"><h2>news</h2></div>
+<div class="home-h"><h2>News</h2></div>
 <div class="news-list">
 {%- assign news_items = site.news | sort: "date" | reverse -%}
 {%- for item in news_items limit: 5 -%}
