@@ -87,49 +87,20 @@ nav_order: 2
     <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
   </div> 
 
-  <div class="tl-item">
-    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
-    <!-- <div class="tl-body"> -->
-    <div class="tl-date">Jan 2022<span class="tl-tag">Award</span></div>
-    <p class="tl-title">University Council Merit Scholarship</p>
-    </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
-  </div>  
-
-  <div class="tl-item">
-    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
-    <!-- <div class="tl-body"> -->
-    <div class="tl-date">2021<span class="tl-tag">Award</span></div>
-    <p class="tl-title">Dean's List</p>
-    <p class="tl-desc">Awarded to top 5% students</p>
-    </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
-  </div>  
-
-  <div class="tl-item">
-    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
-    <!-- <div class="tl-body"> -->
-    <div class="tl-date">2021<span class="tl-tag">Award</span></div>
-    <p class="tl-title">Finalist in Wits Mathematics Competition 2021</p>
-    </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
-  </div>  
-
-  <div class="tl-item">
-    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
-    <!-- <div class="tl-body"> -->
-    <div class="tl-date">2021<span class="tl-tag">Award</span></div>
-    <p class="tl-title">University Entrance Scholarship</p>
-    </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
-  </div>   -->
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
     <div class="tl-body">
     <div class="tl-date">Jan 2021 - Nov 2023<span class="tl-tag">Education</span></div>
     <p class="tl-title">BSc Computer Science, University of the Witwatersrand</p>
-    <p class="tl-desc">Majors: Computer Science and Computer Applications</p>
+    <p class="tl-desc">Graduated with A (aggregate)</p>
+    <ul class="tl-awards">
+    <li>🏅 University Entrance Scholarship, 2021</li>
+    <li>🏅 Finalist in Wits Mathematics Competition, 2021</li>
+    <li>🏅 Dean's List, 2021</li>
+    <li>🏅 University Council Merit Scholarship, 2022</li>
+    <li>🏅 Postgraduate Merit Award, 2023</li>
+    </ul>
     </div>
     <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
   </div>  
