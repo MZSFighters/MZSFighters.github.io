@@ -121,8 +121,8 @@ nav_order: 2
     <div class="tl-date">2021<span class="tl-tag">Award</span></div>
     <p class="tl-title">University Entrance Scholarship</p>
     </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
-  </div>  
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
+  </div>   -->
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
