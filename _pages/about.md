@@ -16,7 +16,7 @@ profile:
    # <p>123 your address street</p>
     # <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 # announcements:
@@ -69,7 +69,7 @@ I am a masters student in computer science at the University of the Witwatersran
 <!-- <div class="jstep"><img src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""><p class="jdate">Nov 2026</p><p class="jtitle">Applying to PhD programmes</p></div> -->
 </div>
 
-<div class="home-h"><h2>News</h2></div>
+<!-- <div class="home-h"><h2>News</h2></div>
 <div class="news-list">
 {%- assign news_items = site.news | sort: "date" | reverse -%}
 {%- for item in news_items limit: 5 -%}
@@ -85,4 +85,9 @@ I am a masters student in computer science at the University of the Witwatersran
 </div>
 </div>
 {%- endfor -%}
+</div> -->
+
+<div class="home-h"><h2>Recent Publications</h2><a href="{{ '/publications/' | relative_url }}">All publications →</a></div>
+<div class="publications">
+{% bibliography --group_by none --query @*[selected=true]* %}
 </div>
