@@ -1,6 +1,6 @@
 ---
 layout: page
-title: other
+title: Other
 permalink: /other/
 description: Teaching, workshops and volunteer work.
 nav: true

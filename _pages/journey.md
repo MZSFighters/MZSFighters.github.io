@@ -1,6 +1,6 @@
 ---
 layout: page
-title: journey
+title: Journey
 permalink: /journey/
 nav: true
 nav_order: 2
