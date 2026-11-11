@@ -62,9 +62,11 @@ nav_order: 2
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
+    <div class="tl-body">
     <div class="tl-date">Jul 2026 <span class="tl-tag">Conference</span></div>
     <p class="tl-title">Presented first-author research paper at SAICSIT (South African Institute of Computer Science and Information Technologies) 2026</p>
     <p class="tl-desc">Paper Titled: "Democratizing Discovery: Cost-Efficient Scientific Literature Screening with Open-Weight SLMs"</p>
+    </div>
   </div>
 
 
@@ -79,7 +81,7 @@ nav_order: 2
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
-    <!-- <div class="tl-body"> -->
+    <div class="tl-body">
     <div class="tl-date">Jan 2025 - present <span class="tl-tag">Education</span></div>
     <p class="tl-title">Started MSc Computer Science, University of the Witwatersrand</p>
     <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery.</p>
@@ -88,6 +90,7 @@ nav_order: 2
     <li>🏅 MSc Fellowship 2025-2026</li>
     <li>🏅 Postgraduate Merit Award, 2025, 2026</li>
     </ul>
+    </div>
   </div>
   
   <div class="tl-item">
