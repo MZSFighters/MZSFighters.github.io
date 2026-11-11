@@ -65,38 +65,73 @@ nav_order: 2
     <p class="tl-title">Started MSc Computer Science, University of the Witwatersrand</p>
     <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery.</p>
   </div>
-
+  
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
     <div class="tl-body">
-    <div class="tl-date">Oct 2026 <span class="tl-tag">Award</span></div>
-    <p class="tl-title">Graduation: BSc Computer Science</p>
-    <p class="tl-desc">Majors: Computer Science and Computer Applications</p>
-    <p class="tl-desc">University of the Witwatersrand, Johannesburg</p>
+    <div class="tl-date">Jan 2024 - Nov 2024<span class="tl-tag">Education</span></div>
+    <p class="tl-title">BSc (Hons) Computer Science, University of the Witwatersrand</p>
+    <p class="tl-desc">Courses: Artificial Intelligence, Machine Learning, Natural Language Processing, Computer Vision, Probabilistic Graphical Models, Applications of Algorithms and Robotics.</p>
+    <p class="tl-desc">Research Project: Semi-automated grading of free-text computer science answers</p>
     </div>
-    <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
+  </div> 
+
+  <div class="tl-item">
+    <img class="tl-logo" src="{{ '/assets/img/logos/golden_key.png' | relative_url }}" alt="">
+    <div class="tl-body">
+    <div class="tl-date">2022<span class="tl-tag">Award</span></div>
+    <p class="tl-title">Golden Key Honour Society Member</p>
+    <p class="tl-desc">Awarded to students who rank in the top 15% of their academic class based on their overall university performance</p>
+    </div>
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
+  </div> 
+
+  <div class="tl-item">
+    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
+    <!-- <div class="tl-body"> -->
+    <div class="tl-date">Jan 2022<span class="tl-tag">Award</span></div>
+    <p class="tl-title">University Council Merit Scholarship</p>
+    </div>
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
   </div>  
 
   <div class="tl-item">
-    <div class="tl-date">Jan 2024 <span class="tl-tag">Education</span></div>
-    <p class="tl-title">Started BSc (Hons) Computer Science, University of the Witwatersrand</p>
-    <p class="tl-desc">Courses: Artificial Intelligence, Machine Learning, Natural Language Processing, Computer Vision, Probabilistic Graphical Models, Applications of Algorithms and Robotics.</p>
-    <p class="tl-desc">Research Project: Semi-automated grading of free-text computer science answers</p>
-  </div>
+    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
+    <!-- <div class="tl-body"> -->
+    <div class="tl-date">2021<span class="tl-tag">Award</span></div>
+    <p class="tl-title">Dean's List</p>
+    <p class="tl-desc">Awarded to top 5% students</p>
+    </div>
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
+  </div>  
 
   <div class="tl-item">
-    <div class="tl-date">Jan 2021 <span class="tl-tag">Education</span></div>
-    <p class="tl-title">Started BSc Computer Science, University of the Witwatersrand</p>
-    <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery.</p>
-  </div>
-    <div class="tl-item">
+    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
+    <!-- <div class="tl-body"> -->
+    <div class="tl-date">2021<span class="tl-tag">Award</span></div>
+    <p class="tl-title">Finalist in Wits Mathematics Competition 2021</p>
+    </div>
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
+  </div>  
+
+  <div class="tl-item">
+    <!-- <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt=""> -->
+    <!-- <div class="tl-body"> -->
+    <div class="tl-date">2021<span class="tl-tag">Award</span></div>
+    <p class="tl-title">University Entrance Scholarship</p>
+    </div>
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
+  </div>  
+
+  <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
     <div class="tl-body">
-    <div class="tl-date">Jan 2021 <span class="tl-tag">Education</span></div>
-    <p class="tl-title">Started BSc Computer Science, University of the Witwatersrand</p>
-    <p class="tl-desc"></p>
+    <div class="tl-date">Jan 2021 - Nov 2023<span class="tl-tag">Education</span></div>
+    <p class="tl-title">BSc Computer Science, University of the Witwatersrand</p>
+    <p class="tl-desc">Majors: Computer Science and Computer Applications</p>
     </div>
-    <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
+    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
   </div>  
 
 </div>
