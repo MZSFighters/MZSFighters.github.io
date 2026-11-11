@@ -57,7 +57,7 @@ nav_order: 2
     <div class="tl-body">
     <div class="tl-date">Jul 2026 <span class="tl-tag">Award</span></div>
     <p class="tl-title">Best Paper in Computer Science Track Award</p>
-    <p class="tl-desc">SAICSIT 2026</p>
+    <p class="tl-desc">SAICSIT 2026 Conference</p>
     </div>
     <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
   </div>
