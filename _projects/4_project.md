@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contradiction Detection
+title: Contradiction Detection 
 description: another without an image
 img:
 importance: 3
