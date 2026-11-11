@@ -27,9 +27,15 @@ nav_order: 2
   </div>
 
   <div class="tl-item">
-    <div class="tl-date">Aug 2026 <span class="tl-tag">Presentation</span></div>
-    <p class="tl-title">Talk at [Conference / Workshop]</p>
-    <p class="tl-desc">Presented "[Title]" on [one-line summary].</p>
+    <div class="tl-date">Jul 2026 <span class="tl-tag">Award</span></div>
+    <p class="tl-title">Best Paper Award at SAICSIT 2026</p>
+    <p class="tl-desc">Awarded for best paper in the computer science track</p>
+  </div>
+
+  <div class="tl-item">
+    <div class="tl-date">Jul 2026 <span class="tl-tag">Presentation</span></div>
+    <p class="tl-title">Presented my MSc work at SAICSIT (South African Institute of Computer Science and Information Technologies) 2026</p>
+    <p class="tl-desc">Titled: "Democratizing Discovery: Cost-Efficient Scientific Literature Screening with Open-Weight SLMs"</p>
   </div>
 
   <div class="tl-item">
@@ -39,9 +45,22 @@ nav_order: 2
   </div>
 
   <div class="tl-item">
-    <div class="tl-date">2025 <span class="tl-tag">Education</span></div>
-    <p class="tl-title">Started MSc Computer Science, [University]</p>
-    <p class="tl-desc">Supervised by [Name], working on [thesis topic].</p>
+    <div class="tl-date">Jan 2025 <span class="tl-tag">Education</span></div>
+    <p class="tl-title">Started MSc Computer Science, University of the Witwatersrand</p>
+    <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery.</p>
+  </div>
+
+  <div class="tl-item">
+    <div class="tl-date">Jan 2024 <span class="tl-tag">Education</span></div>
+    <p class="tl-title">Started BSc (Hons) Computer Science, University of the Witwatersrand</p>
+    <p class="tl-desc">Courses: Artificial Intelligence, Machine Learning, Natural Language Processing, Computer Vision, Probabilistic Graphical Models, Applications of Algorithms and Robotics.</p>
+    <p class="tl-desc">Research Project: Semi-automated grading of free-text computer science answers</p>
+  </div>
+
+  <div class="tl-item">
+    <div class="tl-date">Jan 2021 <span class="tl-tag">Education</span></div>
+    <p class="tl-title">Started BSc Computer Science, University of the Witwatersrand</p>
+    <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery.</p>
   </div>
 
 </div>
