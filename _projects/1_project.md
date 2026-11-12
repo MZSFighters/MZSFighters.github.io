@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Microbe-Cancer Pair Discovery
-description: An AI co-scientist to detect potential novel microbe-cancer pairs
+description: An AI co-scientist pipeline for discovering potential novel microbe–cancer pairs · MSc
 img: assets/img/mcp.jpg
 importance: 1
 ---
@@ -32,8 +32,8 @@ importance: 1
 </div>
 <div class="pj-meta">
 <div class="pj-logos">
-<img src="{{ '/assets/img/logos/idori.jpeg' | relative_url }}" alt="Wits IDORI">
-<img src="{{ '/assets/img/logos/mind.png' | relative_url }}" alt="Wits MIND">
+<img src="{{ '/assets/img/idori.jpeg' | relative_url }}" alt="Wits IDORI">
+<img src="{{ '/assets/img/mind.png' | relative_url }}" alt="Wits MIND">
 </div>
 <p class="pj-date">Jan 2025 – present</p>
 </div>
@@ -51,8 +51,7 @@ We are developing a transparent, validated AI pipeline that automates this proce
 <div class="caption">Overview of the AI co-scientist pipeline.</div>
 
 ### My contribution
-
-This project forms the basis of my MSc thesis within the Wits IDORI MCP team. I developed the literature screening and classification stage of the pipeline, showing that small open-weight language models can screen biomedical literature with nuanced reasoning at a fraction of the cost of large proprietary models. [Add one more sentence on your role in the wider pipeline, e.g. evidence extraction, contradiction detection, or evaluation.]
+This project forms the basis of my MSc thesis within the Wits IDORI MCP team. I developed the literature screening and classification stage of the pipeline, investigating whether small open-weight language models can classify biomedical literature with nuanced reasoning, as a lower-cost alternative to large proprietary models. this work received the Best Paper Award (Computer Science Track) at SAICSIT 2026. I also investigated how well LLMs can detect internal contradictions within biomedical papers, an important signal when assessing the reliability of reported evidence. Beyond these research components, I implemented and deployed the end-to-end pipeline, building its core components and integrating new features as the project evolved.
 
 So far, the project has produced two publications:
 

@@ -39,7 +39,7 @@ nav_order: 6
   <img class="ow-logo" src="{{ '/assets/img/logos/sydney-brenner.jpg' | relative_url }}" alt="">
   <div class="ow-body">
     <p class="ow-title">Online Lecture: Theory of LLMs</p>
-    <p class="ow-meta">LLM training · University of the Witwatersrand · March 2026</p>
+    <p class="ow-meta">LLM training · Wits Sydney Brenner Institute for Molecular Bioscience · March 2026</p>
     <p class="ow-desc">I gave an online lecture to 80–100 molecular bioscience students at the Wits Sydney Brenner Institute for Molecular Bioscience, explaining how large language models actually work. I covered transformer architectures (encoder, decoder and encoder–decoder models), next-token prediction, state-of-the-art models such as GPT, and in-context learning and other prompting strategies, with a focus on making these ideas accessible to a non-computer-science audience.</p>
     <!-- <div class="ow-links"><a href="{{ '/assets/pdf/lecture-slides.pdf' | relative_url }}">Slides</a></div> -->
   </div>

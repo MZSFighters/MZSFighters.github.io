@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Semi-automated grading of free-text computer science answers
-description: BSc Hons Research Project
+title: Semi-Automated Grading 
+description: Clustering student answers to grade free-text responses with less manual marking · BSc Hons project
 img: assets/img/auto-grading.png
 importance: 4
 ---
@@ -35,10 +35,10 @@ importance: 4
 </div>
 
 ### Abstract
-Manual grading of free-text responses in Data Structures and Algorithms (DSA) courses presents a significant challenge for educators, requiring substantial time and resources. This paper introduces a semi-automated grading system that combines Large Language Models (LLMs) with clustering techniques to reduce grading workload while maintaining assessment quality. Our key contribution is a novel Greedy Monte Carlo (GMC) sampling strategy that intelligently selects which submissions to mark manually, while providing confidence metrics for automated grading decisions. We evaluate our system using a dataset of anonymized student responses from a universitylevel DSA course. Our experiments reveal that BERT embeddings consistently outperform GPT-2 for representing student responses, and k-means clustering provides more reliable cluster distributions compared to hierarchical clustering approaches. The GMC sampling strategy demonstrates superior performance over random sampling, achieving Pearson correlation scores of up to 0.7 with human-assigned grades while requiring significantly fewer manual markings. Importantly, the system provides educators with confidence measures for automated grades, enabling informed decisions about when additional manual grading is necessary. These results suggest that our approach can substantially reduce grading effort while maintaining assessment reliability, offering a practical solution for scaling assessment in computer science education.
+Manual grading of free-text responses in Data Structures and Algorithms (DSA) courses presents a significant challenge for educators, requiring substantial time and resources. This paper introduces a semi-automated grading system that combines Large Language Models (LLMs) with clustering techniques to reduce grading workload while maintaining assessment quality. Our key contribution is a novel Greedy Monte Carlo (GMC) sampling strategy that intelligently selects which submissions to mark manually, while providing confidence metrics for automated grading decisions. We evaluate our system using a dataset of anonymized student responses from a university-level DSA course. Our experiments reveal that BERT embeddings consistently outperform GPT-2 for representing student responses, and k-means clustering provides more reliable cluster distributions compared to hierarchical clustering approaches. The GMC sampling strategy demonstrates superior performance over random sampling, achieving Pearson correlation scores of up to 0.7 with human-assigned grades while requiring significantly fewer manual markings. Importantly, the system provides educators with confidence measures for automated grades, enabling informed decisions about when additional manual grading is necessary. These results suggest that our approach can substantially reduce grading effort while maintaining assessment reliability, offering a practical solution for scaling assessment in computer science education.
 
 {% include figure.liquid path="assets/img/k-means.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">k-means clustering</div>
 
 ### My contribution
-I am the sole author of this work.
+I am the sole author of this work, completed under the supervision of Prof. Richard Klein.

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SLMs for Cost-efficient Literature Screening
-description: MSc Component, First-author Publication 
+title: SLMs for Cost-Efficient Literature Screening
+description: Small open-weight language models for biomedical literature screening · Publication 
 img: assets/img/slm.png
 importance: 2
 ---
@@ -38,10 +38,10 @@ importance: 2
 </div>
 
 ### Abstract
-Artificial Intelligence (AI) co-scientists must be able to sift through vast research literature cost-efficiently while applying nuanced scientific reasoning. We evaluate selected Small Language Models (SLMs, ≤ 8B parameters), namely Qwen2.5 and Llama 3, for complex-criteria classification of medical research based on titles and abstracts. As a case study, we curate a dataset with expert labels on the potential of MMTVlike viruses to cause breast cancer. We assess model performance on both zero-shot and in-context learning (ICL) strategies against frontier proprietary Large Language Models (LLMs). Gemini 2.5 Pro performed best against all other models on the three-class classification task. However, on the binary classification task, the SLMs achieved performance indistinguishable from Gemini 2.5 Pro. In contrast, GPT-5 (high/low-effort reasoning) performed the worst due to its conservatism. ICL provided statistically significant improvements in F1 (at 97% confidence) for Llama 3, increasing by 13 percentage points on average over zero-shot while Qwen2.5 did not benefit significantly from ICL, already showing strong zero-shot performance. Lexical-ablation experiments show that SLM decisions are often grounded in valid scientific cues but can be influenced by spurious textual artifacts, underscoring the need for interpretability in high-stakes pipelines. Our results reveal both promise and limitations of modern SLMs for scientific triage; pairing SLMs with simple but principled prompting strategies can approach the performance of the strongest LLMs for targeted literature filtering in co-scientist pipelines.
+Artificial Intelligence (AI) co-scientists must be able to sift through vast research literature cost-efficiently while applying nuanced scientific reasoning. We evaluate selected Small Language Models (SLMs, ≤ 8B parameters), namely Qwen2.5 and Llama 3, for complex-criteria classification of medical research based on titles and abstracts. As a case study, we curate a dataset with expert labels on the potential of MMTV-like virus to cause breast cancer. We assess model performance on both zero-shot and in-context learning (ICL) strategies against frontier proprietary Large Language Models (LLMs). Gemini 2.5 Pro performed best against all other models on the three-class classification task. However, on the binary classification task, the SLMs achieved performance indistinguishable from Gemini 2.5 Pro. In contrast, GPT-5 (high/low-effort reasoning) performed the worst due to its conservatism. ICL provided statistically significant improvements in F1 (at 97% confidence) for Llama 3, increasing by 13 percentage points on average over zero-shot while Qwen2.5 did not benefit significantly from ICL, already showing strong zero-shot performance. Lexical-ablation experiments show that SLM decisions are often grounded in valid scientific cues but can be influenced by spurious textual artifacts, underscoring the need for interpretability in high-stakes pipelines. Our results reveal both promise and limitations of modern SLMs for scientific triage; pairing SLMs with simple but principled prompting strategies can approach the performance of the strongest LLMs for targeted literature filtering in co-scientist pipelines.
 
 {% include figure.liquid path="assets/img/slm.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">Heatmap of model-technique classifications</div>
 
 ### My contribution
-First author for upcoming Springer CCIS publication and joint-first author for arxiv pre-print
+I am first author on this work (to appear in Springer CCIS; joint first author on the arXiv preprint). I ran experiments across a range of small language models, tested prompt optimisation techniques, and led the main analysis of the results, including interpreting the performance heatmaps and the precision–sensitivity trade-off when comparing small open-weight models against larger proprietary ones for classifying biomedical literature. The paper received the Best Paper Award (Computer Science Track) at SAICSIT 2026.

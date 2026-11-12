@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dutch-Afrikaans NER
-description: Transfer Learning from Dutch to Afrikaans Language using BERT
+description: Cross-lingual transfer from Dutch to Afrikaans for named entity recognition with BERT
 img: assets/img/NER.png
 importance: 5
 ---
@@ -35,10 +35,10 @@ importance: 5
 </div>
 
 ### Abstract
-Despite recent advances in Natural Language Processing, there remains a significant gap in language models for African languages, including Afrikaans. This paper presents BERTaal, a novel approach to Named Entity Recognition (NER) in Afrikaans using transfer learning from Dutch. Leveraging the linguistic similarities between Dutch and Afrikaans, we fine-tune the Dutch pre-trained model BERTje through a twostage process: first with masked language modeling on an Afrikaans Wikipedia corpus, followed by task-specific fine-tuning on an Afrikaans NER dataset. Our results demonstrate that BERTaal achieves 94% accuracy and a weighted F1-score of 0.94, outperforming a baseline model fine-tuned solely on the NER task. Through detailed attention map analysis, we uncover and address key patterns in the model’s behavior, including the impact of dataset structure on attention mechanisms. This work not only presents a practical solution for Afrikaans NER but also provides insights into effective transfer learning strategies for low-resource languages with linguistic similarities to betterresourced languages.
+Despite recent advances in Natural Language Processing, there remains a significant gap in language models for African languages, including Afrikaans. This paper presents BERTaal, a novel approach to Named Entity Recognition (NER) in Afrikaans using transfer learning from Dutch. Leveraging the linguistic similarities between Dutch and Afrikaans, we fine-tune the Dutch pre-trained model BERTje through a twostage process: first with masked language modeling on an Afrikaans Wikipedia corpus, followed by task-specific fine-tuning on an Afrikaans NER dataset. Our results demonstrate that BERTaal achieves 94% accuracy and a weighted F1-score of 0.94, outperforming a baseline model fine-tuned solely on the NER task. Through detailed attention map analysis, we uncover and address key patterns in the model’s behavior, including the impact of dataset structure on attention mechanisms. This work not only presents a practical solution for Afrikaans NER but also provides insights into effective transfer learning strategies for low-resource languages with linguistic similarities to better-resourced languages.
 
 {% include figure.liquid path="assets/img/NER.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 <div class="caption">Attention heatmap - BERT</div>
 
 ### My contribution
-[One to three sentences with concrete verbs: built, designed, evaluated, deployed.]
+In this group project, I led the technical implementation and wrote much of the codebase, including the initial fine-tuning of a Dutch BERT model with masked language modelling. I also carried out extensive preprocessing of both the Afrikaans Wikipedia corpus and the Afrikaans named entity recognition dataset, and co-wrote the final report with the group.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mam-AI
-description: Offline edge-device LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
+description: Offline, on-device LLM assistant for midwives in Zanzibar · EPFL LiGHT Lab
 img: assets/img/mam-ai.png
 importance: 3
 ---
@@ -48,7 +48,7 @@ Zanzibar experiences unacceptably high rates of maternal and newborn mortality, 
 <img src="https://www.youtube.com/watch?v=ks5fF-1xY4M&t=2s" alt="Mam-AI demo video">
 <span class="pj-play"><i class="fa-solid fa-play"></i></span>
 </a>
-<div class="caption">Mam-AI app in action (If video does not work, please check it out on the Google gemma 3n kaggle challenge link above)</div>
+<div class="caption">Mam-AI in action. If the video does not load, you can also watch it via the Kaggle link above.</div>
 
 ### My contribution
-[One to three sentences with concrete verbs: built, designed, evaluated, deployed.]
+Our team developed a mobile application that uses retrieval-augmented generation (RAG) to provide relevant clinical guidance in response to midwives’ queries. I focused on the retrieval component: I processed and prepared the clinical guideline documents for retrieval, and experimented with different chunk sizes, strides and embedding models to improve the relevance of the information returned to the model. I also wrote the full technical report for our submission to the Google Gemma 3n Impact Challenge.

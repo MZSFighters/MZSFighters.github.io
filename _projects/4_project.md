@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Error and Contradiction Detection in Scientific Papers
-description: MSc Component (in progress...)
+title: Error and Contradiction Detection
+description: Using LLMs to detect internal contradictions in biomedical papers · MSc, ongoing
 # img: assets/img/NER.png
 importance: 6
 ---
@@ -32,4 +32,4 @@ importance: 6
 In progress...
 
 ### My contribution
-I am the sole author of this work.
+I am the sole author of this work, working under the supervision of Prof Bruce Bassett, Prof Richard Klein and Dr Hairong Wang.
