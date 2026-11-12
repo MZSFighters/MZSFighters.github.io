@@ -28,17 +28,19 @@ nav_order: 6
   <div class="ow-body">
     <p class="ow-title">Academic Tutor</p>
     <p class="ow-meta">University of the Witwatersrand · Jan 2023 - Nov 2026</p>
-    <p class="ow-desc">I tutored students</p>
+    <p class="ow-desc">I tutored undergraduate and postgraduate computer science students across courses including NLP, Machine Learning, Artificial Intelligence, Data Structures, Algorithms and Databases. My role involved running tutorials, marking and invigilating assessments, helping lecturers implement project solutions and quality-assure course material.</p>
     <!-- <div class="ow-links"><a href="{{ '/assets/pdf/lecture-slides.pdf' | relative_url }}">Slides</a></div> -->
   </div>
 </div>
+
+<!-- As an academic tutor, my duties included tutoring undergraduate and postgraduate students, marking tests and exams, invigiliating tests and exams as well as sometimes helping lecturers implement project solutions and quality assurance. I have tutored many courses that are offered throughout undergrad and postgrad degrees. -->
 
 <div class="ow-card">
   <img class="ow-logo" src="{{ '/assets/img/logos/sydney-brenner.jpg' | relative_url }}" alt="">
   <div class="ow-body">
     <p class="ow-title">Online Lecture: Theory of LLMs</p>
     <p class="ow-meta">LLM training · University of the Witwatersrand · March 2026</p>
-    <p class="ow-desc">I lectured 80-100 molecular bioscience students at the Wits Sydney Brenner Institute for Molecular Bioscience. I taught them how the LLMs really work including the difference between encoder-decoder models, next token prediction, SOTA models like GPT, in-context learning and other prompting strategies</p>
+    <p class="ow-desc">I gave an online lecture to 80–100 molecular bioscience students at the Wits Sydney Brenner Institute for Molecular Bioscience, explaining how large language models actually work. I covered transformer architectures (encoder, decoder and encoder–decoder models), next-token prediction, state-of-the-art models such as GPT, and in-context learning and other prompting strategies, with a focus on making these ideas accessible to a non-computer-science audience.</p>
     <!-- <div class="ow-links"><a href="{{ '/assets/pdf/lecture-slides.pdf' | relative_url }}">Slides</a></div> -->
   </div>
 </div>
@@ -49,11 +51,10 @@ nav_order: 6
   <img class="ow-logo" src="{{ '/assets/img/logos/kempner.jpeg' | relative_url }}" alt="">
   <div class="ow-body">
     <p class="ow-title">Building a Transformer from Scratch</p>
-    <p class="ow-meta">Role: Facilitator · Wits MIND Institute & Harvard Kempner Institute · Oct 2025</p>
-    <p class="ow-desc">I acted as the liason between the lecturer and students, helping the students through the practical implementation of the Transformer model.</p>
+    <p class="ow-meta">Facilitator · Wits MIND Institute & Harvard Kempner Institute (remote) · Oct 2025</p>
+    <p class="ow-desc">I was one of eight facilitators for “Building a Transformer from Scratch”, a remote workshop jointly hosted by the Wits MIND Institute and the Kempner Institute at Harvard University, bringing together students from both institutions. I acted as a liaison between the lecturer and the students, guiding participants through the hands-on implementation of a Transformer model and answering their questions along the way.</p>
   </div>
 </div>
-
 
 
 <h3 class="ow-section">Volunteering</h3>
@@ -61,9 +62,9 @@ nav_order: 6
 <div class="ow-card">
   <img class="ow-logo" src="{{ '/assets/img/logos/mgss.jpg' | relative_url }}" alt="">
   <div class="ow-body">
-    <p class="ow-title">Role: Admin · Marlboro Gardens Secondary School</p>
-    <p class="ow-meta">2021-2023</p>
-    <p class="ow-desc"> I volunteered at my high school to help the admissions team with transition to online applications for different grades and also helped with grade 1 admissions. I worked for a total of 60 hours with this service over 3 years.</p>
+    <p class="ow-title">Volunteer</p>
+    <p class="ow-meta">Marlboro Gardens Secondary School · 2021-2023</p>
+    <p class="ow-desc"> I volunteered at my former high school as part of community service, supporting the admissions and administration team. This included helping the school transition to online applications during COVID-19, assisting with admissions, and continuing with general administrative duties afterwards, contributing 60 hours over three years (2021–2023).</p>
     <!-- <img class="ow-photo" src="{{ '/assets/img/events/volunteer-1.jpg' | relative_url }}" alt=""> -->
   </div>
 </div>
