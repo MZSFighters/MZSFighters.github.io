@@ -84,6 +84,7 @@ nav_order: 2
     <div class="tl-date">Jan 2025 - present <span class="tl-tag">Education</span></div>
     <p class="tl-title">Started MSc Computer Science, University of the Witwatersrand</p>
     <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery.</p>
+    <a class="tl-more" href="{{ '/projects/1_project/' | relative_url }}">See project →</a>
     <!-- </div> -->
     <ul class="tl-awards">
     <li>🏅 MSc Fellowship 2025-2026</li>
@@ -99,7 +100,7 @@ nav_order: 2
     <p class="tl-title">BSc (Hons) Computer Science, University of the Witwatersrand</p>
     <p class="tl-desc">Graduated with Distinction (Cum Laude)</p>
     <p class="tl-desc">Courses: Artificial Intelligence, Machine Learning, Natural Language Processing, Computer Vision, Probabilistic Graphical Models, Applications of Algorithms and Robotics.</p>
-    <p class="tl-desc">Research Project: Semi-automated grading of free-text computer science answers (Supervised by Prof Richard Klein)</p>
+    <p class="tl-desc">Research Project: Semi-automated grading of free-text computer science answers (Supervised by Prof Richard Klein)  <a class="tl-more" href="{{ '/projects/3_project/' | relative_url }}">See project →</a></p>
     <ul class="tl-awards">
     <li>🏅 Postgraduate Merit Award, 2024</li>
     <li>🏅 Dean's List, 2024</li>
