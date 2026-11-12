@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SLMs for Cost-Efficient Literature Screening
-description: Small open-weight language models for biomedical literature screening · Publication 
+description: Small open-weight language models for biomedical literature screening · MSc · Publication 
 img: assets/img/slm.png
 importance: 2
 ---

@@ -32,7 +32,7 @@ importance: 1
 </div>
 <div class="pj-meta">
 <div class="pj-logos">
-<img src="{{ '/assets/img/idori.jpeg' | relative_url }}" alt="Wits IDORI">
+<img src="{{ '/assets/img/idori.jpg' | relative_url }}" alt="Wits IDORI">
 <img src="{{ '/assets/img/mind.png' | relative_url }}" alt="Wits MIND">
 </div>
 <p class="pj-date">Jan 2025 – present</p>
