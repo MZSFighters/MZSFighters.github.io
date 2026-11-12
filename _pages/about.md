@@ -27,11 +27,11 @@ profile:
     <div class="pc-info">
     <p class="pc-loc"><i class="fa-solid fa-location-dot"></i> Johannesburg, South Africa</p>
     <div class="pc-social">
-    <a class="pc-mail" href="mailto:YOUR_EMAIL" title="Email"><i class="fa-solid fa-envelope"></i></a>
-    <a class="pc-li" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a class="pc-mail" href="mailto:mzaidmns@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    <a class="pc-li" href="https://www.linkedin.com/in/mohammad-zaid-moonsamy-7214a7284/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
     <a class="pc-gh" href="https://github.com/MZSFighters" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-    <a class="pc-gs" href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-    <a class="pc-orcid" href="https://orcid.org/YOUR_ORCID_ID" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
+    <a class="pc-gs" href="https://scholar.google.com/citations?user=2Cyte0QAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+    <a class="pc-orcid" href="https://orcid.org/0009-0006-5321-8179" target="_blank" title="ORCID"><i class="ai ai-orcid"></i></a>
     </div>
     </div>
 

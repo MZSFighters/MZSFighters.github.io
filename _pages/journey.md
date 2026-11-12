@@ -48,19 +48,22 @@ nav_order: 2
     <div class="tl-body">
     <div class="tl-date">Aug 2026<span class="tl-tag">Publication</span></div>
     <p class="tl-title">Co-authored paper in Frontiers in Cellular and Infection Microbiology</p>
-    <p class="tl-desc">Paper Titled: "Artificial intelligence can match domain experts in evidence extraction and critical appraisal of microbial oncogenesis research publications"</p>
+    <p class="tl-desc"><a href="https://www.frontiersin.org/journals/cellular-and-infection-microbiology/articles/10.3389/fcimb.2026.1876326/full" target="_blank"><em>Artificial intelligence can match domain experts in evidence extraction and critical appraisal of microbial oncogenesis research publications</em></a></p>
     </div>
   </div>
 
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
     <div class="tl-body">
-    <div class="tl-date">Jul 2026 <span class="tl-tag">Conference</span></div>
-    <p class="tl-title">Presented first-author research paper at SAICSIT (South African Institute of Computer Science and Information Technologies) 2026</p>
+    <div class="tl-date">Jul 2026 <span class="tl-tag">Conference</span> <span class="tl-tag">Award</span></div>
+<p class="tl-title">🏆 Best Paper Award (Computer Science Track), SAICSIT 2026</p>
+<p class="tl-desc">First-author paper, presented in Cape Town: <a href="https://arxiv.org/abs/2512.06502" target="_blank"><em>Democratizing Discovery: Cost-Efficient Scientific Literature Screening with Open-Weight SLMs</em></a></p>
+    <!-- <div class="tl-date">Jul 2026 <span class="tl-tag">Conference</span></div>
+    <p class="tl-title">Presented first-author research paper at SAICSIT (South African Institute of Computer Scientists and Information Technologists) 2026</p>
     <p class="tl-desc">Paper Titled: "Democratizing Discovery: Cost-Efficient Scientific Literature Screening with Open-Weight SLMs"</p>
     <ul class="tl-awards">
     <li>🏅 Best Paper in Computer Science Track Award</li>
-    </ul>
+    </ul> -->
     </div>
   </div>
 
@@ -71,7 +74,7 @@ nav_order: 2
     <div class="tl-date">Jun 2025 - Aug 2025 <span class="tl-tag">Internship</span></div>
     <p class="tl-title">Summer@EPFL research intern</p>
     <p class="tl-desc">Research internship in the LiGHT Lab, supervised by Dr Trevor Brokowski. Built LLM and RAG components for Mam-AI, an offline, on-device app that gives midwives in Zanzibar instant access to clinical guidelines.</p>
-<a class="tl-more" href="{{ '/projects/2_project/' | relative_url }}">See project →</a></p>
+    <a class="tl-more" href="{{ '/projects/2_project/' | relative_url }}">See project →</a>
     </div>
   </div>
 
