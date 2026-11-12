@@ -52,16 +52,6 @@ nav_order: 2
     </div>
   </div>
 
-  <!-- <div class="tl-item">
-    <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
-    <div class="tl-body">
-    <div class="tl-date">Jul 2026 <span class="tl-tag">Award</span></div>
-    <p class="tl-title">Best Paper in Computer Science Track Award</p>
-    <p class="tl-desc">SAICSIT 2026 Conference</p>
-    </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
-  </div> -->
-
   <div class="tl-item">
     <img class="tl-logo" src="{{ '/assets/img/logos/saicsit2026.png' | relative_url }}" alt="">
     <div class="tl-body">
@@ -80,7 +70,8 @@ nav_order: 2
     <div class="tl-body">
     <div class="tl-date">Jun 2025 - Aug 2025 <span class="tl-tag">Internship</span></div>
     <p class="tl-title">Summer@EPFL research intern</p>
-    <p class="tl-desc">Joined LiGHT lab for Mam-AI project.</p>
+    <p class="tl-desc">Research internship in the LiGHT Lab, supervised by Dr Trevor Brokowski. Built LLM and RAG components for Mam-AI, an offline, on-device app that gives midwives in Zanzibar instant access to clinical guidelines.</p>
+<a class="tl-more" href="{{ '/projects/2_project/' | relative_url }}">See project →</a></p>
     </div>
   </div>
 
