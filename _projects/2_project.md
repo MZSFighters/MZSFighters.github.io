@@ -2,8 +2,8 @@
 layout: page
 title: Mam-AI
 description: Offline edge-device LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
-img: assets/img/projects/mam-ai.png
-importance: 3
+img: assets/img/mam-ai.png
+importance: 4
 ---
 
 <style>
@@ -12,11 +12,11 @@ importance: 3
 .pj-links a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.9rem; border-radius: 999px; font-size: 0.9rem;
   border: 1px solid var(--global-theme-color); color: var(--global-theme-color) !important; text-decoration: none; transition: all 0.2s; }
 .pj-links a:hover { background: var(--global-theme-color); color: #fff !important; }
-.pj-meta { text-align: right; }
+.pj-meta { text-align: right; margin-top: -6rem; }
 .pj-logos { display: flex; gap: 0.6rem; justify-content: flex-end; }
 .pj-logos img { height: 56px; width: auto; max-width: 120px; object-fit: contain; background: #fff; border-radius: 10px; padding: 6px; }
 .pj-date { font-size: 0.85rem; color: var(--global-text-color-light); margin: 0.4rem 0 0; }
-@media (max-width: 600px) { .pj-meta { text-align: left; } .pj-logos { justify-content: flex-start; } }
+@media (max-width: 600px) { .pj-meta { text-align: left; margin-top: 0; } .pj-logos { justify-content: flex-start; } }
 .pj-video { position: relative; display: block; max-width: 720px; margin: 1.5rem auto 0.5rem; border-radius: 12px; overflow: hidden; }
 .pj-video img { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; transition: transform 0.3s; }
 .pj-video:hover img { transform: scale(1.03); }
@@ -36,7 +36,7 @@ importance: 3
 <img src="{{ '/assets/img/logos/light.png' | relative_url }}" alt="LiGHT Lab">
 <img src="{{ '/assets/img/logos/epfl.png' | relative_url }}" alt="EPFL">
 </div>
-<p class="pj-date">Jun – Aug 2025</p>
+<p class="pj-date">Jun 2025 – Aug 2025</p>
 </div>
 </div>
 

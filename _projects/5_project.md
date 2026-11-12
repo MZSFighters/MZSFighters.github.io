@@ -1,103 +1,44 @@
 ---
 layout: page
 title: Dutch-Afrikaans NER
-description: Offline LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
-img: assets/img/projects/mamai-card.jpg
-importance: 3
+description: Offline edge-device LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
+img: assets/img/NER.png
+importance: 6
 ---
 
-**At a glance:** EPFL LiGHT Lab · Jun – Aug 2025 · *Role:* [e.g. ML engineer on RAG pipeline and on-device deployment] · *Tools:* [e.g. Python, Llama.cpp, LangChain, Flutter]
+<style>
+.pj-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; margin: 0.2rem 0 2rem; }
+.pj-links { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.pj-links a { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.9rem; border-radius: 999px; font-size: 0.9rem;
+  border: 1px solid var(--global-theme-color); color: var(--global-theme-color) !important; text-decoration: none; transition: all 0.2s; }
+.pj-links a:hover { background: var(--global-theme-color); color: #fff !important; }
+.pj-meta { text-align: right; margin-top: -6rem; }
+.pj-logos { display: flex; gap: 0.6rem; justify-content: flex-end; }
+.pj-logos img { height: 56px; width: auto; max-width: 120px; object-fit: contain; background: #fff; border-radius: 10px; padding: 6px; }
+.pj-date { font-size: 0.85rem; color: var(--global-text-color-light); margin: 0.4rem 0 0; }
+@media (max-width: 600px) { .pj-meta { text-align: left; margin-top: 0; } .pj-logos { justify-content: flex-start; } }
+.pj-video { position: relative; display: block; max-width: 720px; margin: 1.5rem auto 0.5rem; border-radius: 12px; overflow: hidden; }
+.pj-video img { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; transition: transform 0.3s; }
+.pj-video:hover img { transform: scale(1.03); }
+.pj-video .pj-play { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 72px; height: 72px; border-radius: 50%;
+  background: rgba(255, 0, 0, 0.9); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.8rem; padding-left: 5px; }
+</style>
 
-### TL;DR
-[One or two sentences a non-expert understands: what you built and why it matters.]
-
-### The problem
-[2–3 sentences. What gap exists, who it affects, and why existing solutions fall short. E.g. midwives in Zanzibar need reliable clinical guidance, but connectivity is unreliable and cloud LLMs are impractical.]
-
-### What I did
-[3–5 sentences or bullets. Your approach and *your* contribution specifically. Name key technical choices and why you made them.]
-
-{% include figure.liquid path="assets/img/projects/mamai-diagram.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-<div class="caption">[One-line caption explaining the figure.]</div>
-
-### Results
-- [Concrete outcome, ideally a number: accuracy, latency, cost, users, deployment status.]
-- [Second outcome, if you have one.]
-
-### Key takeaways
-- [What you learned that changed how you think, e.g. "Small models with good retrieval beat larger models when connectivity is the bottleneck."]
-- [An honest limitation or open question.]
-
-**Links:** [Paper](https://...) · [Code](https://github.com/...) · [Slides](/assets/pdf/...)
-<!-- 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="pj-head">
+<div class="pj-links">
+<a href="https://github.com/MZSFighters/Dutch-Afrikaans-NER" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+<a href="{{ '/assets/pdf/NER.pdf' | relative_url }}" target="_blank"><i class="fa-solid fa-file-pdf"></i> Report</a>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+<div class="pj-meta" style="margin-top: 0;">
+<p class="pj-date">Aug 2024 – Sep 2024</p>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Abstract
+Despite recent advances in Natural Language Processing, there remains a significant gap in language models for African languages, including Afrikaans. This paper presents BERTaal, a novel approach to Named Entity Recognition (NER) in Afrikaans using transfer learning from Dutch. Leveraging the linguistic similarities between Dutch and Afrikaans, we fine-tune the Dutch pre-trained model BERTje through a twostage process: first with masked language modeling on an Afrikaans Wikipedia corpus, followed by task-specific fine-tuning on an Afrikaans NER dataset. Our results demonstrate that BERTaal achieves 94% accuracy and a weighted F1-score of 0.94, outperforming a baseline model fine-tuned solely on the NER task. Through detailed attention map analysis, we uncover and address key patterns in the model’s behavior, including the impact of dataset structure on attention mechanisms. This work not only presents a practical solution for Afrikaans NER but also provides insights into effective transfer learning strategies for low-resource languages with linguistic similarities to betterresourced languages.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+{% include figure.liquid path="assets/img/NER.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">Attention heatmap - BERT</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %} -->
+### My contribution
+[One to three sentences with concrete verbs: built, designed, evaluated, deployed.]
