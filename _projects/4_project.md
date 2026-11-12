@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Error and Contradiction Detection in Scientific Papers
-description: MSc Component
+description: MSc Component (in progress...)
 # img: assets/img/NER.png
-importance: 3
+importance: 6
 ---
+
+*Part of my MSc project: [AI Co-Scientist for Microbe–Cancer Discovery](/projects/your-overview-page/).*
 
 <style>
 .pj-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; margin: 0.2rem 0 2rem; }
@@ -30,4 +32,4 @@ importance: 3
 In progress...
 
 ### My contribution
-I am the only author for this work.
+I am the sole author of this work.

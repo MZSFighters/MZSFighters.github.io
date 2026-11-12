@@ -3,7 +3,7 @@ layout: page
 title: Dutch-Afrikaans NER
 description: Offline edge-device LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
 img: assets/img/NER.png
-importance: 6
+importance: 5
 ---
 
 <style>

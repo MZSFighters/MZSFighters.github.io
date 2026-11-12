@@ -3,7 +3,7 @@ layout: page
 title: Mam-AI
 description: Offline edge-device LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
 img: assets/img/mam-ai.png
-importance: 4
+importance: 3
 ---
 
 <style>
@@ -48,7 +48,7 @@ Zanzibar experiences unacceptably high rates of maternal and newborn mortality, 
 <img src="https://www.youtube.com/watch?v=ks5fF-1xY4M&t=2s" alt="Mam-AI demo video">
 <span class="pj-play"><i class="fa-solid fa-play"></i></span>
 </a>
-<div class="caption">Mam-AI app in action</div>
+<div class="caption">Mam-AI app in action (If video does not work, please check it out on the Google gemma 3n kaggle challenge link above)</div>
 
 ### My contribution
 [One to three sentences with concrete verbs: built, designed, evaluated, deployed.]

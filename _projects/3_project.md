@@ -3,7 +3,7 @@ layout: page
 title: Semi-automated grading of free-text computer science answers
 description: BSc Hons Research Project
 img: assets/img/auto-grading.png
-importance: 5
+importance: 4
 ---
 
 <style>
@@ -41,4 +41,4 @@ Manual grading of free-text responses in Data Structures and Algorithms (DSA) co
 <div class="caption">k-means clustering</div>
 
 ### My contribution
-[One to three sentences with concrete verbs: built, designed, evaluated, deployed.]
+I am the sole author of this work.
