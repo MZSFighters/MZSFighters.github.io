@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dutch-Afrikaans NER
-description: Offline edge-device LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
+description: Transfer Learning from Dutch to Afrikaans Language using BERT
 img: assets/img/NER.png
 importance: 5
 ---

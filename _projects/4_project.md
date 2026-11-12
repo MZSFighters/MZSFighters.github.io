@@ -6,7 +6,7 @@ description: MSc Component (in progress...)
 importance: 6
 ---
 
-*Part of my MSc project: [AI Co-Scientist for Microbe–Cancer Discovery](/projects/your-overview-page/).*
+*Part of my MSc project: [AI Co-Scientist for Microbe–Cancer Discovery](/projects/1_project/).*
 
 <style>
 .pj-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; margin: 0.2rem 0 2rem; }
