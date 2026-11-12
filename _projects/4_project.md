@@ -2,9 +2,8 @@
 layout: page
 title: Contradiction Detection 
 description: another without an image
-img:
+# img: assets/img/contra.jpg
 importance: 3
-category: fun
 ---
 
 Every project has a beautiful feature showcase page.
