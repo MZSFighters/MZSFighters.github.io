@@ -1,12 +1,43 @@
----
+<!-- ---
 layout: page
 title: Mam-AI
 description: a project with a background image and giscus comments
 img: assets/img/mam-ai.png
 importance: 2
 giscus_comments: true
+--- -->
+---
+layout: page
+title: Mam-AI
+description: Offline LLM assistant supporting midwives in Zanzibar
+img: assets/img/projects/mamai-card.jpg
+importance: 3
 ---
 
+**At a glance:** EPFL LiGHT Lab · Jun – Aug 2025 · *Role:* [e.g. ML engineer on RAG pipeline and on-device deployment] · *Tools:* [e.g. Python, Llama.cpp, LangChain, Flutter]
+
+### TL;DR
+[One or two sentences a non-expert understands: what you built and why it matters.]
+
+### The problem
+[2–3 sentences. What gap exists, who it affects, and why existing solutions fall short. E.g. midwives in Zanzibar need reliable clinical guidance, but connectivity is unreliable and cloud LLMs are impractical.]
+
+### What I did
+[3–5 sentences or bullets. Your approach and *your* contribution specifically. Name key technical choices and why you made them.]
+
+{% include figure.liquid path="assets/img/projects/mamai-diagram.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="caption">[One-line caption explaining the figure.]</div>
+
+### Results
+- [Concrete outcome, ideally a number: accuracy, latency, cost, users, deployment status.]
+- [Second outcome, if you have one.]
+
+### Key takeaways
+- [What you learned that changed how you think, e.g. "Small models with good retrieval beat larger models when connectivity is the bottleneck."]
+- [An honest limitation or open question.]
+
+**Links:** [Paper](https://...) · [Code](https://github.com/...) · [Slides](/assets/pdf/...)
+<!-- 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
@@ -77,4 +108,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
