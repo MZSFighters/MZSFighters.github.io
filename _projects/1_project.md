@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Microbe-Cancer Pair Discovery
-description: with background image
-img: assets/img/12.jpg
+description: An AI co-scientist to detect potential novel microbe-cancer pairs
+img: assets/img/mcp.jpg
 importance: 1
 category: work
 related_publications: true
