@@ -45,7 +45,7 @@ importance: 3
 Zanzibar experiences unacceptably high rates of maternal and newborn mortality, primarily due to lack of information at the point of care. MAM-AI is an offline-first, privacy-preserving, clinical smart-search app designed to support nurses and midwives in Zanzibar for neonatal care. The key challenge of these nurses is information scarcity - doctors and supervisors are often far away and unavailable. MAM-AI addresses this by putting easy summaries of gold-standard clinical guidelines right in the hands of the nurses in need at the point of care. Nurses type their queries into the search bar, the app searches through the guidelines, and they receive a summary of the relevant clinical information. MAM-AI aims to reduce preventable maternal and neonatal deaths by democratizing access to expert medical information at the point of care.
 
 <a class="pj-video" href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">
-<img src="https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg" alt="Mam-AI demo video">
+<img src="https://www.youtube.com/watch?v=ks5fF-1xY4M&t=2s" alt="Mam-AI demo video">
 <span class="pj-play"><i class="fa-solid fa-play"></i></span>
 </a>
 <div class="caption">Mam-AI app in action</div>
