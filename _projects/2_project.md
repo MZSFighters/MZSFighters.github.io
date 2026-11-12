@@ -1,15 +1,7 @@
-<!-- ---
-layout: page
-title: Mam-AI
-description: a project with a background image and giscus comments
-img: assets/img/mam-ai.png
-importance: 2
-giscus_comments: true
---- -->
 ---
 layout: page
 title: Mam-AI
-description: Offline LLM assistant supporting midwives in Zanzibar
+description: Offline LLM assistant supporting midwives in Zanzibar. Summer@EPFL project
 img: assets/img/projects/mamai-card.jpg
 importance: 3
 ---

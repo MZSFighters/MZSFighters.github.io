@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contradiction Detection 
+title: Error and Contradiction Detection in Scientific Papers
 description: another without an image
 # img: assets/img/contra.jpg
 importance: 3

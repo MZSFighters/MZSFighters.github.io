@@ -3,7 +3,6 @@ layout: page
 title: Semi-automated grading of free-text computer science answers
 description: a project that redirects to another website
 img: assets/img/auto-grading.png
-redirect: https://www.wikipedia.org/
 importance: 3
 ---
 
