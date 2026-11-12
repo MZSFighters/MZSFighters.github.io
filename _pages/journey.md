@@ -33,7 +33,7 @@ nav_order: 2
 
 
   <div class="tl-item">
-    <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
+    <img class="tl-logo" src="{{ '/assets/img/logos/wits.jpeg' | relative_url }}" alt="">
     <div class="tl-body">
     <div class="tl-date">Oct 2026 <span class="tl-tag">Award</span></div>
     <p class="tl-title">3rd Place, Best Research Presentation</p>
@@ -99,7 +99,7 @@ nav_order: 2
   </div>
   
   <div class="tl-item">
-    <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
+    <img class="tl-logo" src="{{ '/assets/img/logos/wits.jpeg' | relative_url }}" alt="">
     <div class="tl-body">
     <div class="tl-date">Jan 2024 - Nov 2024<span class="tl-tag">Education</span></div>
     <p class="tl-title">BSc (Hons) Computer Science, University of the Witwatersrand</p>
@@ -126,7 +126,7 @@ nav_order: 2
 
 
   <div class="tl-item">
-    <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
+    <img class="tl-logo" src="{{ '/assets/img/logos/wits.jpeg' | relative_url }}" alt="">
     <div class="tl-body">
     <div class="tl-date">Jan 2021 - Nov 2023<span class="tl-tag">Education</span></div>
     <p class="tl-title">BSc Computer Science, University of the Witwatersrand</p>
