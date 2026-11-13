@@ -130,7 +130,6 @@ nav_order: 2
     <li>🏅 Finalist in Wits Mathematics Competition, 2021</li>
     <li>🏅 Dean's List, 2021</li>
     <li>🏅 University Council Merit Scholarship, 2022</li>
-    <li>🏅 Postgraduate Merit Award, 2023</li>
     </ul>
     </div>
     <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
