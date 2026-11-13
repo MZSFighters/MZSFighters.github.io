@@ -82,7 +82,7 @@ nav_order: 2
     <img class="tl-logo" src="{{ '/assets/img/logos/wits.png' | relative_url }}" alt="">
     <div class="tl-body">
     <div class="tl-date">Jan 2025 - present <span class="tl-tag">Education</span></div>
-    <p class="tl-title">Started MSc Computer Science, University of the Witwatersrand</p>
+    <p class="tl-title">Started MSc Computer Science (Dissertation), University of the Witwatersrand</p>
     <p class="tl-desc">Supervised by Prof Bruce Bassett and Prof Richard Klein, working on Small Language Models (SLMs), contradiction detection and large-scale deployment for Microbe-Cancer pair discovery. <a class="tl-more" href="{{ '/projects/1_project/' | relative_url }}">See project →</a></p>
     <!-- </div> -->
     <ul class="tl-awards">
