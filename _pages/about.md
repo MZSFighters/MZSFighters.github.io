@@ -57,7 +57,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
 <!-- I am a masters student in computer science at the University of the Witwatersrand, working at the intersection of Artificial Intelligence and Healthcare. My research interests include training, optimizing and applying AI agents to solve problems in the biomedical healthcare domain. I am currently in the process of writing my MSc Thesis and thus looking forward to finish it. -->
-I am an MSc Computer Science student at the University of the Witwatersrand, working at the intersection of artificial intelligence and healthcare. My research focuses on training, optimising and applying AI agents to biomedical problems, from AI-assisted scientific discovery to offline clinical decision support. I am currently completing my MSc thesis.
+I am an MSc Computer Science student at the University of the Witwatersrand, working at the intersection of artificial intelligence and healthcare. My research focuses on training, optimising and applying AI agents to problems in healthcare and the biomedical domain, from AI-assisted scientific discovery to offline clinical decision support. I am currently completing my MSc thesis.
 
 <style>
 .home-h { display: flex; justify-content: space-between; align-items: baseline; margin: 3rem 0 1.2rem; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 0.4rem; }
