@@ -77,6 +77,7 @@ nav_order: 2
     <p class="tl-desc">Research internship in the LiGHT Lab, supervised by Dr Trevor Brokowski. Built LLM and RAG components for Mam-AI, an offline, on-device app that gives midwives in Zanzibar instant access to clinical guidelines.</p>
     <a class="tl-more" href="{{ '/projects/2_project/' | relative_url }}">See project →</a>
     </div>
+    <img class="tl-thumb" src="{{ '/assets/img/events/light_award.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
   </div>
 
   <div class="tl-item">
