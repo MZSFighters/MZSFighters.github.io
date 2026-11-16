@@ -39,7 +39,7 @@ nav_order: 2
     <p class="tl-title">3rd Place, Best Research Presentation</p>
     <p class="tl-desc">Wits Faculty of Science Research Showcase 2026</p>
     </div>
-    <!-- <img class="tl-thumb" src="{{ '/assets/img/events/showcase-2026.jpg' | relative_url }}" alt="Presenting at the Wits research showcase"> -->
+    <img class="tl-thumb" src="{{ '/assets/img/events/fos_award.jpg' | relative_url }}" alt="Presenting at the Wits research showcase">
   </div>
 
 
@@ -65,6 +65,7 @@ nav_order: 2
     <li>🏅 Best Paper in Computer Science Track Award</li>
     </ul> -->
     </div>
+    <img class="tl-thumb" src="{{ '/assets/img/events/saicsit_award.jpeg' | relative_url }}" alt="Presenting at the Wits research showcase">
   </div>
 
 
